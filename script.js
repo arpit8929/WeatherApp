@@ -7,7 +7,8 @@
             + "&units=metric&appid=" 
             + this.apikey)
             .then((Response) => Response.json())
-            .then((data) => this.displayWeather(data));
+            .then((data) => this.displayWeather(data))
+                .catch((error)=>console.log("Koi Dikkat Hain"));
         },
     
         displayWeather: function(data) {
