@@ -41,5 +41,5 @@
         }
     });
     
-    weather.fetchWeather("Amreli");
+    weather.fetchWeather("Changa");
     
